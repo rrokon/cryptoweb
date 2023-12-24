@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+body{
+color: #fff;
+    
+}
+
+.header{position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 26px;
+    font-family: monospace;
+    font-weight: 600;
+    color: #fff;
+}
+.navbar a{font-size: 18px;
+    color: #fff;
+    margin:0 17px;
+    transition: 0.3s;
+
+}
+.navbar a:hover,
+.navbar a.active {
+    color:rgb(154, 217, 233);
+}
+.home{width: 100%;
+    height: 100vh;
+    background:url(./depositphotos_220215972-stock-photo-gold-bitcoin-projection-over-black.jpg) no-repeat ;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    padding: 50px 8% 0;
+    }
+
+    .home-content{
+        max-width: 620px;
+       
+
+    }
+    .home-content h1{
+        font-size: 45px;
+        line-height: 1.3;
+    }
+    .home-content h1:nth-child(3){
+        background: linear-gradient(#59ffff,#97a3b6);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .home-content p{
+        font-size: 16px;
+        margin: 20px 0 25px;
+        font-family: monospace;
+        font-weight: 500;
+        background: rgba(0,0,0,0.5);
+    }
+    .home-content .btn-box{
+        width: 345px;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .btn{
+        padding: 10px 28px;
+        background: skyblue;
+        border: 2px solid blue;
+        border-radius: 6px;
+        color: #111;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        
+    }
+    .btn-box .btn:nth-child(2){
+        background: transparent;
+        color: skyblue;
+    }
+    .btn-box .btn:nth-child(2):hover{
+        background: skyblue;
+        color: #01003f;
+    }
+    .btn-box .btn:nth-child():hover{
+        transition: 0.3s;
+    }
